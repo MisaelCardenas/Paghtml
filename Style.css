@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+}
+
+header {
+    background-color: #333;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1{
+    Color: #ffffff
+}
+
+nav {
+    background-color: #484040;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    align-items: center;
+    
+}
+
+section{
+    display: flex;
+    height: 430px;
+    border-radius: 50px;
+  }
+
+  section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease; 
+
+  }
+  
+  section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+  }
+
+
+
+.album {
+    display:inline-block;
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.album img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.Artista {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.Artista img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+.footer {
+    margin-top: 230px;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.footer a:hover img {
+    transform: scale(1.1);
+}
+
+
+.search-container {
+  display:flex;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.search-container {
+    display: flex;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #search {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+
+button {
+    padding: 10px 15px;
+    background-color: #232d33;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: -5px;
+
+  }
+  
+  button:hover {
+    background-color: #232d33;
+  }
